@@ -133,3 +133,9 @@ footer {
     padding: 15px 25px;
     border-radius: 10px;
 }
+
+.harga {
+    padding: 40px;
+    background: #f4f4f4;
+    text-align: center;
+}
