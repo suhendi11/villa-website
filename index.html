@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="id">
-
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -24,12 +24,11 @@
 
 <ul class="menu">
 <li><a href="#">Home</a></li>
-<li><a href="#about">Tentang Kami</a></li>
 <li><a href="#villa">Villa</a></li>
 <li><a href="#map">Lokasi</a></li>
 </ul>
 
-<a href="https://instagram.com/username_kamu" class="nav-btn">
+<a href="https://instagram.com/pondoklawucisarua" class="nav-btn">
 Instagram
 </a>
 
@@ -44,10 +43,29 @@ Instagram
 Nikmati pengalaman menginap dengan suasana alam yang sejuk dan menenangkan.
 </p>
 
-<a href="https://wa.me/6289517388602"
-class="hero-btn">
+<a href="https://wa.me/6289517388602" class="hero-btn">
 Booking Sekarang
 </a>
+
+<div class="about-toggle" onclick="toggleAbout()">
+ℹ️ Tentang Kami
+</div>
+
+<div class="facility-mini">
+
+<div>🏊 Kolam Renang Dewasa</div>
+<div>👶 Kolam Renang Anak</div>
+<div>📶 WiFi</div>
+<div>🎣 Pemancingan</div>
+<div>🎱 Billiard</div>
+<div>🏀 Lapangan Basket</div>
+<div>🌿 Halaman Luas</div>
+<div>🚗 Parkir Luas</div>
+<div>🛝 Playground</div>
+<div>🏓 Tenis Meja</div>
+<div>🌇 Rooftop</div>
+
+</div>
 
 </div>
 
@@ -59,44 +77,11 @@ Booking Sekarang
 
 <h2>Tentang Kami</h2>
 
-<div class="about-box">
-
 <p>
-Pondok Lawu adalah tempat menginap yang menawarkan suasana alam yang
-tenang dengan udara pegunungan yang sejuk dan pemandangan yang indah.
-Tempat ini dirancang untuk memberikan pengalaman menginap yang nyaman
-dan menenangkan bagi setiap pengunjung.
+Pondok Lawu merupakan tempat menginap yang menawarkan suasana alam,
+udara sejuk, serta pemandangan yang indah. Tempat ini cocok untuk
+liburan keluarga maupun staycation bersama orang terdekat.
 </p>
-
-<p>
-Kami menyediakan beberapa pilihan villa dengan konsep alami dan fasilitas
-lengkap yang cocok untuk liburan keluarga, staycation, maupun waktu
-bersantai bersama orang terdekat.
-</p>
-
-</div>
-
-</section>
-
-<section class="facility">
-
-<h2>Fasilitas</h2>
-
-<div class="facility-grid">
-
-<div class="facility-card">Kolam Renang Dewasa</div>
-<div class="facility-card">Kolam Renang Anak</div>
-<div class="facility-card">WiFi</div>
-<div class="facility-card">Pemancingan</div>
-<div class="facility-card">Billiard</div>
-<div class="facility-card">Lapangan Basket</div>
-<div class="facility-card">Halaman Luas</div>
-<div class="facility-card">Parkir Luas</div>
-<div class="facility-card">Playground</div>
-<div class="facility-card">Tenis Meja</div>
-<div class="facility-card">Rooftop</div>
-
-</div>
 
 </section>
 
@@ -150,14 +135,10 @@ bersantai bersama orang terdekat.
 
 <h2>Lokasi Kami</h2>
 
-<p class="location-text">
-Temukan lokasi Pondok Lawu dengan mudah melalui Google Maps.
-</p>
-
 <div class="map-container">
 
 <iframe
-src="https://maps.app.goo.gl/rP2dxeE2MgdTKMH26"
+src="https://www.google.com/maps/place/Pondok+Lawu/@-6.6710476,106.9417012,17z/data=!4m9!3m8!1s0x2e69b64ef3e60aed:0xb581cddbd2edde24!5m2!4m1!1i2!8m2!3d-6.6710476!4d106.9442761!16s%2Fg%2F11b7fzyrfm?entry=ttu&g_ep=EgoyMDI2MDMyNC4wIKXMDSoASAFQAw%3D%3D"
 width="100%"
 height="400"
 style="border:0;"
@@ -174,6 +155,23 @@ loading="lazy">
 💬
 </a>
 
+
+
+<script>
+
+function toggleAbout(){
+
+var about = document.getElementById("about");
+
+if(about.style.display === "block"){
+about.style.display = "none";
+}else{
+about.style.display = "block";
+}
+
+}
+
+</script>
 
 </body>
 </html>
