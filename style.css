@@ -115,16 +115,34 @@ footer {
     }
 }
 
+.info {
+    padding: 40px;
+    text-align: center;
+    background: #f9f9f9;
+}
+
 .fasilitas {
     padding: 50px;
     text-align: center;
 }
 
 .fasilitas-list {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.fasilitas-list div {
+    background: #27ae60;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.fasilitas-list div:hover {
+    transform: scale(1.05);
 }
 
 .fasilitas-list div {
