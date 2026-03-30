@@ -10,12 +10,13 @@
 
 <link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 </head>
 
 
 <body>
+
 
 
 <header class="hero">
@@ -24,28 +25,34 @@
 
 <div class="logo">Pondok Lawu</div>
 
-<ul class="menu">
+<div class="menu-toggle" onclick="toggleMenu()">
+☰
+</div>
+
+<ul class="menu" id="menu">
+
 <li><a href="#facility">Fasilitas</a></li>
 <li><a href="#villa">Villa</a></li>
 <li><a href="#map">Lokasi</a></li>
+
 </ul>
 
-<a href="https://instagram.com/pondoklawucisarua" class="instagram-btn">
+<a href="https://instagram.com/usernamekamu" target="_blank" class="instagram">
 Instagram
 </a>
 
 </nav>
 
 
-<div class="hero-text">
+<div class="hero-content">
 
 <h1>Pondok Lawu</h1>
 
 <p>
-Nikmati suasana alam yang sejuk dan tenang bersama keluarga.
+Tempat menginap dengan udara pegunungan yang sejuk dan suasana yang tenang.
 </p>
 
-<a href="https://wa.me/6289517388602" class="booking-btn">
+<a href="https://wa.me/628123456789" class="booking-btn">
 Booking Sekarang
 </a>
 
@@ -65,12 +72,10 @@ Booking Sekarang
 <div class="facility">👶<p>Kolam Anak</p></div>
 <div class="facility">📶<p>WiFi</p></div>
 <div class="facility">🎣<p>Pemancingan</p></div>
-
 <div class="facility">🎱<p>Billiard</p></div>
 <div class="facility">🏀<p>Basket</p></div>
-<div class="facility">🌿<p>Halaman Luas</p></div>
-<div class="facility">🚗<p>Parkir Luas</p></div>
-
+<div class="facility">🌿<p>Halaman</p></div>
+<div class="facility">🚗<p>Parkir</p></div>
 <div class="facility">🛝<p>Playground</p></div>
 <div class="facility">🏓<p>Tenis Meja</p></div>
 <div class="facility">🌇<p>Rooftop</p></div>
@@ -120,7 +125,7 @@ Booking Sekarang
 <div class="map">
 
 <iframe
-src="https://maps.app.goo.gl/Jx4Fz3fc7GhhhyJF6"
+src="https://www.google.com/maps?q=Gunung+Lawu&output=embed"
 width="100%"
 height="400"
 style="border:0;"
@@ -133,9 +138,35 @@ loading="lazy">
 
 
 
-<a href="https://wa.me/6289517388602" class="wa-button">
+<footer>
+
+<p>© 2026 Pondok Lawu</p>
+
+</footer>
+
+
+
+<a href="https://wa.me/628123456789" class="wa-button">
 💬
 </a>
+
+
+
+<script>
+
+function toggleMenu(){
+
+var menu = document.getElementById("menu");
+
+if(menu.style.display === "flex"){
+menu.style.display="none";
+}else{
+menu.style.display="flex";
+}
+
+}
+
+</script>
 
 
 </body>
