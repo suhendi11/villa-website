@@ -173,25 +173,57 @@ text-align:center;
 
 .facility-mini{
 
-margin-top:25px;
+/* FACILITY ICON GRID */
 
-display:flex;
-flex-wrap:wrap;
+.facility-mini{
 
-gap:10px;
-justify-content:center;
+margin-top:35px;
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:20px;
+
+max-width:800px;
+margin-left:auto;
+margin-right:auto;
 
 }
 
-.facility-mini div{
+.facility-item{
 
-background:rgba(255,255,255,0.1);
+text-align:center;
 
-padding:8px 14px;
+background:rgba(255,255,255,0.08);
 
-border-radius:20px;
+padding:15px;
 
-font-size:13px;
+border-radius:12px;
+
+transition:0.3s;
+
+}
+
+.facility-item span{
+
+font-size:28px;
+display:block;
+margin-bottom:6px;
+
+}
+
+.facility-item p{
+
+font-size:12px;
+
+}
+
+.facility-item:hover{
+
+transform:translateY(-5px);
+
+background:rgba(255,255,255,0.15);
 
 }
 
