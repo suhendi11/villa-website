@@ -1,53 +1,56 @@
+/* HERO CLEAN STABLE */
 .hero{
     height:100vh;
-    background:url('image/hero1.jpg') center/cover no-repeat;
+    background:url('image/hero1.jpg') no-repeat center center/cover;
     display:flex;
-    justify-content:center;
     align-items:center;
+    justify-content:center;
     text-align:center;
     position:relative;
 }
 
-/* overlay ringan (optional, biar teks tetap kebaca) */
+/* overlay ringan */
 .overlay{
     position:absolute;
+    top:0;
+    left:0;
     width:100%;
     height:100%;
     background:rgba(0,0,0,0.2);
 }
 
-/* text tetap jelas */
+/* content */
 .hero-content{
     position:relative;
+    z-index:2;
     color:white;
-    text-shadow:0 2px 8px rgba(0,0,0,0.4);
     max-width:700px;
+    padding:20px;
 }
 
-/* judul */
-.hero h1{
+/* title */
+.hero-content h1{
     font-size:48px;
+    margin-bottom:10px;
 }
 
-/* deskripsi */
-.hero p{
-    margin-top:10px;
+/* desc */
+.hero-content p{
     font-size:18px;
 }
 
-/* tombol */
+/* button */
 .btn-main{
     display:inline-block;
     margin-top:20px;
     padding:12px 25px;
-    background:#ffffff;
-    color:#000;
+    background:white;
+    color:black;
     border-radius:25px;
     text-decoration:none;
-    font-weight:500;
     transition:0.3s;
 }
 
 .btn-main:hover{
-    background:#f1f1f1;
+    background:#eee;
 }
