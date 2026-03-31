@@ -7,104 +7,117 @@
 <title>Villa Pondok Lawu</title>
 
 <link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
 
 </head>
 <body>
 
 <!-- NAVBAR -->
 <nav class="navbar">
-    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
     <div class="logo">Pondok Lawu</div>
 
-    <ul class="menu" id="menu">
+    <ul class="menu">
         <li><a href="#villa">Villa</a></li>
         <li><a href="#facility">Fasilitas</a></li>
         <li><a href="#map">Lokasi</a></li>
     </ul>
 
-    <a href="https://wa.me/628123456789" class="nav-btn">Booking</a>
+    <a href="https://wa.me/628123456789" class="btn-nav">Book Now</a>
 </nav>
 
 <!-- HERO -->
 <header class="hero">
     <div class="overlay"></div>
+
     <div class="hero-content">
-        <h1>Villa Pondok Lawu</h1>
-        <p>Liburan nyaman dengan 4 villa & 1 aula, fasilitas lengkap</p>
-        <a href="https://wa.me/628123456789" class="btn">Booking Sekarang</a>
+        <h1>Luxury Escape at Pondok Lawu</h1>
+        <p>4 Villa Eksklusif • 1 Aula • Fasilitas Lengkap</p>
+
+        <a href="https://wa.me/628123456789" class="btn-main">
+            Booking Sekarang
+        </a>
     </div>
 </header>
 
 <!-- VILLA -->
 <section class="villa-section" id="villa">
-    <h2>Villa Kami</h2>
 
-    <div class="villa-grid">
+<h2>Our Villas</h2>
 
-        <div class="villa-card">
-            <img src="image/villa-utama.jpg">
-            <h3>Villa Utama</h3>
-        </div>
+<div class="villa-grid">
 
-        <div class="villa-card">
-            <img src="image/villa-minahasa.jpg">
-            <h3>Minahasa</h3>
-        </div>
+<div class="card">
+<img src="image/villa-utama.jpg">
+<div class="card-content">
+<h3>Villa Utama</h3>
+<p>Private • Luas • Nyaman</p>
+</div>
+</div>
 
-        <div class="villa-card">
-            <img src="image/wood-cabin.jpg">
-            <h3>Wood Cabin</h3>
-        </div>
+<div class="card">
+<img src="image/villa-minahasa.jpg">
+<div class="card-content">
+<h3>Minahasa</h3>
+<p>View Pegunungan</p>
+</div>
+</div>
 
-        <div class="villa-card">
-            <img src="image/pavilion.jpg">
-            <h3>Pavilion</h3>
-        </div>
+<div class="card">
+<img src="image/wood-cabin.jpg">
+<div class="card-content">
+<h3>Wood Cabin</h3>
+<p>Natural & Cozy</p>
+</div>
+</div>
 
-    </div>
+<div class="card">
+<img src="image/pavilion.jpg">
+<div class="card-content">
+<h3>Pavilion</h3>
+<p>Modern & Stylish</p>
+</div>
+</div>
+
+</div>
 </section>
 
 <!-- FASILITAS -->
 <section class="facility-section" id="facility">
-    <h2>Fasilitas</h2>
 
-    <div class="facility-grid">
-        <div class="facility">🏊 Kolam Dewasa</div>
-        <div class="facility">👶 Kolam Anak</div>
-        <div class="facility">📶 WiFi</div>
-        <div class="facility">🎣 Pemancingan</div>
-        <div class="facility">🎱 Billiard</div>
-        <div class="facility">🏀 Basket</div>
-        <div class="facility">🌿 Halaman Luas</div>
-        <div class="facility">🚗 Parkir Luas</div>
-        <div class="facility">🛝 Playground</div>
-        <div class="facility">🏓 Tenis Meja</div>
-        <div class="facility">🌇 Rooftop</div>
-        <div class="facility">🏢 Aula Besar</div>
-    </div>
+<h2>Facilities</h2>
+
+<div class="facility-grid">
+
+<div>🏊 Kolam Dewasa</div>
+<div>👶 Kolam Anak</div>
+<div>📶 WiFi</div>
+<div>🎣 Pemancingan</div>
+<div>🎱 Billiard</div>
+<div>🏀 Basket</div>
+<div>🌿 Halaman Luas</div>
+<div>🚗 Parkir Luas</div>
+<div>🛝 Playground</div>
+<div>🏓 Tenis Meja</div>
+<div>🌇 Rooftop</div>
+<div>🏢 Aula Besar</div>
+
+</div>
+
 </section>
 
 <!-- MAP -->
 <section class="map-section" id="map">
-    <h2>Lokasi</h2>
-    <iframe src="https://www.google.com/maps?q=Gunung+Lawu&output=embed"></iframe>
+<h2>Location</h2>
+
+<iframe src="https://www.google.com/maps?q=Gunung+Lawu&output=embed"></iframe>
+
 </section>
 
 <!-- FOOTER -->
 <footer>
-    <p>© 2026 Villa Pondok Lawu</p>
+<p>© 2026 Villa Pondok Lawu</p>
 </footer>
-
-<!-- WA FLOAT -->
-<a href="https://wa.me/628123456789" class="wa-button">💬</a>
-
-<script>
-function toggleMenu(){
-    let menu = document.getElementById("menu");
-    menu.classList.toggle("active");
-}
-</script>
 
 </body>
 </html>
