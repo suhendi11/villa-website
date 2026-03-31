@@ -1,6 +1,6 @@
 .hero{
     height:100vh;
-    background:url('image/hero.jpg') center/cover no-repeat;
+    background:url('image/hero1.jpg') center/cover no-repeat;
     display:flex;
     justify-content:center;
     align-items:center;
