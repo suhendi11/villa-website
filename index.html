@@ -18,13 +18,12 @@
     <div class="logo">Pondok Lawu</div>
 
     <ul class="menu">
-    <li><a href="#villa">Villas</a></li>
-    <li><a href="#facility">Facilities</a></li>
-    <li><a href="#gallery">View Gallery</a></li>
-    <li><a href="#map">Location</a></li>
-</ul>
+        <li><a href="#villa">Villas</a></li>
+        <li><a href="#facility">Facilities</a></li>
+        <li><a href="#gallery">View Gallery</a></li>
+        <li><a href="#map">Location</a></li>
+    </ul>
 
-    <!-- GANTI JADI INSTAGRAM -->
     <a href="https://instagram.com/pondoklawucisarua" target="_blank" class="btn-nav">
         Instagram
     </a>
@@ -35,31 +34,26 @@
     <div class="hero-overlay"></div>
 
     <div class="hero-content">
-        <h1> Villa Pondok Lawu</h1>
+        <h1>Villa Pondok Lawu</h1>
         <p>Luxury Villas with Nature, Comfort & Complete Facilities</p>
 
         <div class="hero-btn">
-
-            <!-- GANTI KE WHATSAPP -->
             <a href="https://wa.me/628951738860" class="btn-main">
                 Contact via WhatsApp
             </a>
 
-            <!-- SCROLL KE BOOKING -->
             <a href="#booking" class="btn-outline">
                 Book Now
             </a>
-
         </div>
     </div>
 </section>
 
-<!-- BOOKING SECTION -->
+<!-- BOOKING -->
 <section class="section" id="booking">
     <h2>Book Your Stay</h2>
 
     <form class="booking-form">
-
         <input type="date" required>
 
         <select required>
@@ -73,7 +67,6 @@
         <input type="number" placeholder="Number of Guests" min="1" required>
 
         <button type="submit">Check Availability</button>
-
     </form>
 </section>
 
@@ -86,9 +79,11 @@
         <!-- VILLA 1 -->
         <div class="card">
             <div class="slider">
-                <img src="image/villa-utama1.jpg" class="slide active">
-                <img src="image/villa-utama2.jpg" class="slide">
-                <img src="image/villa-utama3.jpg" class="slide">
+                <div class="slides">
+                    <img src="image/villa-utama1.jpg">
+                    <img src="image/villa-utama2.jpg">
+                    <img src="image/villa-utama3.jpg">
+                </div>
             </div>
             <div class="card-text">
                 <h3>Main Villa</h3>
@@ -99,8 +94,10 @@
         <!-- VILLA 2 -->
         <div class="card">
             <div class="slider">
-                <img src="image/minahasa1.jpg" class="slide active">
-                <img src="image/minahasa2.jpg" class="slide">
+                <div class="slides">
+                    <img src="image/minahasa1.jpg">
+                    <img src="image/minahasa2.jpg">
+                </div>
             </div>
             <div class="card-text">
                 <h3>Minahasa Villa</h3>
@@ -111,8 +108,10 @@
         <!-- VILLA 3 -->
         <div class="card">
             <div class="slider">
-                <img src="image/wood1.jpg" class="slide active">
-                <img src="image/wood2.jpg" class="slide">
+                <div class="slides">
+                    <img src="image/wood1.jpg">
+                    <img src="image/wood2.jpg">
+                </div>
             </div>
             <div class="card-text">
                 <h3>Wood Cabin</h3>
@@ -123,8 +122,10 @@
         <!-- VILLA 4 -->
         <div class="card">
             <div class="slider">
-                <img src="image/pavilion1.jpg" class="slide active">
-                <img src="image/pavilion2.jpg" class="slide">
+                <div class="slides">
+                    <img src="image/pavilion1.jpg">
+                    <img src="image/pavilion2.jpg">
+                </div>
             </div>
             <div class="card-text">
                 <h3>Pavilion</h3>
@@ -134,6 +135,7 @@
 
     </div>
 </section>
+
 <!-- FACILITIES -->
 <section class="section dark" id="facility">
     <h2>Facilities</h2>
@@ -154,8 +156,7 @@
     </div>
 </section>
 
-<!-- Gallery -->
-
+<!-- GALLERY -->
 <section class="section" id="gallery">
     <h2>Gallery</h2>
 
@@ -179,6 +180,9 @@
 <footer>
     <p>© 2026 Villa Pondok Lawu</p>
 </footer>
+
+<!-- JS (WAJIB DI BAWAH) -->
+<script src="script.js"></script>
 
 </body>
 </html>
