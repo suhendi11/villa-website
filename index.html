@@ -47,22 +47,28 @@
             </a>
         </div>
 
-        <!-- BOOKING FORM (UPDATED) -->
-        <div class="hero-book">
+    <!-- BOOKING FORM (UPDATED) -->
+<div class="hero-book">
 
-            <h2>Book Your Stay</h2>
+    <h2>Book Your Stay</h2>
 
-            <form class="booking-form">
+    <form class="booking-form">
 
-                <div class="input-group">
-    <label>Check-in</label>
-    <input type="date" required>
-</div>
+        <input 
+            type="text" 
+            placeholder="Check-in" 
+            onfocus="(this.type='date')" 
+            onblur="if(!this.value) this.type='text'"
+            required
+        >
 
-<div class="input-group">
-    <label>Check-out</label>
-    <input type="date" required>
-</div>
+        <input 
+            type="text" 
+            placeholder="Check-out" 
+            onfocus="(this.type='date')" 
+            onblur="if(!this.value) this.type='text'"
+            required
+        >
 
                 <select required>
                     <option value="">Select Villa</option>
