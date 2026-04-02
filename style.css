@@ -192,4 +192,16 @@ flex-direction:column;
 grid-template-columns:1fr;
 }
 
+.hero-book{
+    margin-top:40px;
+}
+
+.hero-book h2{
+    font-size:28px;
+    font-weight:600;
+    background:rgba(0,0,0,0.6);
+    display:inline-block;
+    padding:12px 25px;
+    border-radius:12px;
+}
 }
