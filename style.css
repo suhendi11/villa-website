@@ -341,7 +341,14 @@ font-size:22px;
 
 .logo img{
 width:40px;
-height:40px;
+height:auto;
+max-width:40px;
 object-fit:contain;
+}
+
+@media(min-width:768px){
+    .logo img{
+        width:35px;
+    }
 }
 }
