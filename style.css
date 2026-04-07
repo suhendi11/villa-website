@@ -314,4 +314,27 @@ grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
 iframe{
 height:400px;
 }
+
+/* ===== SOCIAL BUTTON COLORS ===== */
+
+/* WHATSAPP (HIJAU) */
+.btn-main{
+background:#25D366; /* warna WA */
+color:white;
+}
+
+.btn-main:hover{
+background:#1ebe5d;
+}
+
+/* INSTAGRAM (MERAH / GRADIENT) */
+.btn-outline{
+background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);
+color:white;
+border:none;
+}
+
+.btn-outline:hover{
+opacity:0.9;
+}
 }
